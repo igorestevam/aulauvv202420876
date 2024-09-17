@@ -3,25 +3,31 @@ header {
     align-items: center;
     justify-content: space-around;
     background-color: blanchedalmond;
-    padding: 20px;
-
+    padding: 50px;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
 
-header img {
+    header img {
     border-radius: 50%;
 }
 
-header h2 {
+    header h2 {
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color:rgb(255, 222, 173);
 }
 
 nav {
     background-color:rgb(255, 213, 151);
     padding: 10px;
+    border-radius: 20px;
 }
 
-nav ul {
+    nav ul {
     list-style: none;
     margin: 0%;
     padding: 0;
@@ -29,25 +35,72 @@ nav ul {
     justify-content: center;
 }
 
-nav ul li {
-    margin: 0 100px;
-    border: 15px;
-    border: solid;
-    border-radius: 20px;
-    border-color: rgb(255, 200, 118);
-    width: 50%;
+        nav ul li {
+        margin: 0 100px;
+        border: 15px;
+        border: solid;
+        border-radius: 20px;
+        border-color: rgb(255, 200, 118);
+        width: 50%;
+        justify-content: center;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    padding: 10px 60px;
-    display: block;
+            nav ul li a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            padding: 10px 60px;
+            display: flex;
+            justify-content: center;
+            font-family:Arial, Helvetica, sans-serif;
 }
 
-nav ul li a:hover {
-    background-color:rgb(255, 200, 118);
-    border-radius: 15px;
+            nav ul li a:hover {
+            background-color:rgb(255, 200, 118);
+            border-radius: 15px;
+
+}
+
+#sobre {
+    padding: 20px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+    #sobre img {
+        border-radius: 10px;
+
+    }
+
+    #sobre h3 {
+        margin-left: 20px;
+
+    }
+
+    #sobre p {
+        display: flex;
+    }
+
+#projetos {
+    padding: 20px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+    #projetos img{
+        border-radius: 10px;
+    }
+
+#formações {
+    padding: 20px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+    #formações img {
+        border-radius: 10px;
+    }
+
+#contatos {
 
 }
