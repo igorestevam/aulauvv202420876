@@ -70,61 +70,99 @@ nav {
     #sobre h3 {
     margin-left: 20px;
 
-}
+    }
 
     #sobre article {
         display: flex;
         flex-direction: row;
-}
+    }
 
         #sobre article img {
         border-radius: 10px;
 
-}
-
-
+        }
 
         #sobre article p {
         display: flex;
         margin-left: 50px;
         height: 100%;
-}
+        }
 
-#projetos {
+
+#projetos { 
     padding: 20px;
     margin-top: 80px;
     margin-left: 50px;
 }
     #projetos h3 {
         margin-left: 20px;
-}
+    }
 
     #projetos article {
         display: flex;
         flex-direction: row;
-}
+    }
 
 
         #projetos article img {
         border-radius: 10px;
-}
+        }
 
         #projetos article p {
             display: flex;
             margin-left: 50px;
             height: 100%;
-}
+        }
 
-#formações {
+
+ #formacoes {
     padding: 20px;
     margin-top: 80px;
     margin-left: 50px;
-}
-
-        #formações img {
-        border-radius: 10px;
+            }
+        
+    #formacoes h3 {
+        margin-left: 20px;
     }
+        
+    #formacoes article {
+        display: flex;
+        flex-direction: row;
+    }
+        
+        #formacoes article img {
+            border-radius: 10px;
+        }
+        
+        #formacoes article p {
+            display: flex;
+            margin-left: 50px;
+            height: 100%;
+        }
+
 
 #contatos {
+    background-color: rgb(255, 213, 151);
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+
 
 }
+
+#contatos {
+    max-width: 3000px;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+    #contatos h3 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    
+    #contatos img {
+        width: 30px;
+        height: auto;
+        vertical-align: middle;
+    }
