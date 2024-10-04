@@ -68,8 +68,8 @@ nav {
 }
 
     #sobre h3 {
-    margin-left: 20px;
-
+        margin-left: 20px;
+        font-size: 30px;
     }
 
     #sobre article {
@@ -96,6 +96,7 @@ nav {
 }
     #projetos h3 {
         margin-left: 20px;
+        font-size: 30px;
     }
 
     #projetos article {
@@ -119,10 +120,12 @@ nav {
     padding: 20px;
     margin-top: 80px;
     margin-left: 50px;
-            }
+    margin-bottom: 200px;
+}
         
     #formacoes h3 {
         margin-left: 20px;
+        font-size: 30px;
     }
         
     #formacoes article {
@@ -145,24 +148,33 @@ nav {
     background-color: rgb(255, 213, 151);
     padding: 20px;
     border-radius: 20px;
+    justify-content: center;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
     width: 100%;
-
-
 }
 
-#contatos {
-    max-width: 3000px;
-    margin: 0 auto;
-    flex-direction: row;
-}
+    #contatos ul {
+        justify-content: space-evenly;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
 
-    #contatos h3 {
-        margin-bottom: 20px;
-        font-size: 24px;
-    }
-    
-    #contatos img {
-        width: 30px;
-        height: auto;
-        vertical-align: middle;
-    }
+        #contatos ul li {
+            justify-content: space-evenly;
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+        #contatos ul li img {
+            justify-content: center;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            height: 60px;
+        }
